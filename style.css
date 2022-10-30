@@ -1,0 +1,136 @@
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+form.word {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+form.letter {
+    margin-top: 5%;
+    margin-left: 70%;
+}
+
+img.Hangman {
+    position: relative;
+    margin-top: -13%;
+    margin-left: 35%;
+    width: 320px;
+    height: 550px;
+}
+
+img.head {
+    display: none;
+    position: absolute;
+    margin-top: -8%;
+    margin-left: -14.2%;
+    width: 400px;
+    height: 200px;
+}
+
+img.body {
+    display: none;
+    position: absolute;
+    margin-top: -6.2%;
+    margin-left: -16.1%;
+    width: 500px;
+    height: 370px;
+}
+
+img.lefthand {
+    display: none;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: -7.2%;
+    width: 70px;
+    height: 70px;
+}
+
+img.righthand {
+    display: none;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: -3.7%;
+    width: 70px;
+    height: 70px;
+}
+
+img.leftfoot {
+    display: none;
+    position: absolute;
+    margin-top: 5.9%;
+    margin-left: -7.8%;
+    width: 80px;
+    height: 80px;
+}
+
+img.rightfoot {
+    display: none;
+    position: absolute;
+    margin-top: 5.9%;
+    margin-left: -3.8%;
+    width: 80px;
+    height: 80px;
+}
+
+img.eyes {
+    display: none;
+    position: absolute;
+    margin-top: -6%;
+    margin-left: -4.7%;
+    width: 160px;
+    height: 100px;
+}
+
+img.nose {
+    display: none;
+    position: absolute;
+    margin-top: -3.3%;
+    margin-left: -4.1%;
+    width: 15px;
+    height: 15px;
+}
+
+img.mouth {
+    display: none;
+    position: absolute;
+    margin-top: -2.9%;
+    margin-left: -4.6%;
+    width: 36px;
+    height: 29px;
+}
+
+img.line {
+    display: none;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: -6.3%;
+    width: 100px;
+    height: 120px;
+}
+
+div.output {
+    position: relative;
+    margin-top: 6%;
+    margin-left: 7%;
+}
+
+button.reset {
+    position: relative;
+    margin-top: 4%;
+    margin-left: 7%;
+    color:black
+    background-color:forestgreen;
+}
+
+
+div.wordMatrix {
+    position: relative;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
