@@ -71,10 +71,7 @@ function startAgain() {
 }
 
 function resetGame() {
-    for (let i = 1; i <= 9; ++i) {
-        hangMan[Number(i)].style.display = "none";
-    }
-    insertLetter.disabled = "false";
+    window.location.reload();
 }
 
 insertWordBtn.addEventListener('click', createWord);
